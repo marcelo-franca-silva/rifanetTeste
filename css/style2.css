@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0c25;
+
+}
+
+.container{
+  width: 80%;
+  height: 80vh;
+  display: flex;
+}
+
+
+.form{   
+  margin-left: 325px;
+  width: 50%;
+  align-items: center  !important;  
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.form-header{
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-header h1 a{
+  text-decoration: none;
+  color: #00712D  ;
+}
+
+.form-header h1 a:hover{
+  opacity: 80%;
+}
+
+.form-header h1::after{
+  content: ''; 
+  display: block;
+  width: 5rem;
+  height: 0.3rem;
+  background-color:  #00712D;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0 ;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.input-box input{
+  margin: 0.6rem;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px rgb(0, 0, 0);
+}
+
+
+.input-box label{
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.input-box input::placeholder{
+  color: #615b5b;;
+}
+
+.btn-home{
+  margin: 10px;
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #00712D;
+  text-decoration: none;
+  color: #ffffff;
+  
+}
+
+.btn-home:hover{
+  opacity: 80%;
+}
+
+.login h1{
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.login span a{
+  text-decoration: none;
+  margin-left: 5px;
+  color:  #399918;
+}
+
+.login span a:hover{
+  opacity: 80%  ;
+}
+
+
+
+
+@media screen  and (max-width: 1365px) {
+
+  .conteiner{
+    width: 50%;
+  }
+
+  .form{
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .login-button{
+    margin-left: 1px;
+  }
+
+  .title{
+   margin-left: -10px;
+  }
+
+}
+
+@media screen  and (max-width: 1065px) {
+   .container{
+    width: 90%;
+    height: auto;
+   }
+
+   .input-group{
+    flex-direction: column;
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+    max-height: 30rem;
+    padding-right: 5rem;  
+   }
+}
+
+
+

@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;    
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    background-color: #0f0c25; 
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+}
+
+.btn {
+    margin-left: 50px;
+    background-color: #00712D;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff; 
+}
+
+.btn:hover {
+    background-color: #005f23;
+    transform: scale(1.05);
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container h1 {
+    font-size: 28px;
+    color: #00712D;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="date"], select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    display: none; 
+}
+
+.picture {
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    border: 2px dashed #00712D;
+    border-radius: 5px;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.picture:hover {
+    background-color: rgba(0, 113, 45, 0.1);
+}
+
+.picture__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('path/to/your/image.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.picture span {
+    display: inline-block;
+    padding: 50px 0;
+    color: #00712D;
+    font-weight: bold;
+}
+ 

@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #0f0c25;
+    color: #fff;
+}
+
+.caixa h2{
+  font-size: 100px;
+  color: #00712D;
+}
+
+a{
+  text-decoration: none;
+  color: #399918;
+}
+ 
+a:hover{
+opacity: 80%;
+}
+
+#login{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: -80px;
+}
+
+.login input{
+  border-radius: 15px;
+  width: 350px;
+  height: 50px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.btn-home{
+  margin: 10px;
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px 20px;
+  border: 3px solid #00712D;
+  border-radius: 50px;
+  background-color: #00712D;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+.acessar p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.btn-home:hover{
+   opacity: 85%;
+}
+
+
+ 
+h1{
+  margin-top: 100px;
+  color: #fafafa;
+  font-size: 50px;
+}
+
+.caixa {
+  margin-top: 100px;
+}
+
+input:focus{
+  outline: none;
+}
+
+
+@media screen  and (max-width: 1390px) {
+
+#login{
+  margin-top: 100px;
+}
+
+}

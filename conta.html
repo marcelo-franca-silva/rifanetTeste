@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de rifas online para gerenciamento de rifas e informações do usuário.">
+    <title>RɪғᴀNᴇᴛ-Minhas Conta</title>
+    <link rel="icon" href="img/jesus.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/conta.css">
+</head>
+<body>
+  
+    <header>
+
+        <nav id="nav">
+
+            <a href="home.html" class="btn" >Voltar</a>
+
+        </nav>
+
+        <div class="header-container">
+          
+            <img src="img/usuario-de-perfil.png" alt="usuario">
+            <h1>Marcelo França S.</h1>
+            <p>Situação: <span class="status">Pendente</span></p>
+          
+        </div>
+      
+    </header>
+
+    <div class="main-container">
+
+    <div class="container">
+
+        <div class="area1" id="toggleArea">
+            <span class="icon"><img src="img/local.png" alt="Localização"></span>
+            <span>Adicionar local</span>
+        </div>
+        
+        <div class="area2" id="infoArea">
+            <input type="text" placeholder="Rua">
+            <input type="text" placeholder="Número">
+            <input type="text" placeholder="Cidade">
+            <input type="text" placeholder="Estado">
+            <input type="text" placeholder="CEP">
+            <button id="addButton">Adicionar</button>
+        </div>
+
+        <button class="btn-rifa">Criar novas rifas</button>
+
+    </div>
+        
+        <main class="main-content">
+          
+            <section class="search-section">
+                <input type="text" class="search-bar" placeholder="Ex.: Computador">
+            </section>
+
+            <section class="filters-section">
+    
+                <select class="filter">
+                    <option value="">Categoria</option>
+                    <option value="categoria1">Automoveis</option>
+                    <option value="categoria2">Comidas</option>
+                    <option value="categoria3">Objetos</option>
+                    <option value="categoria4">Eletrodomesticos</option>
+                </select>
+                
+                <select class="filter">
+                    <option value="">Localização</option>
+                    <option value="localizacao1">Guaratingueta-SP</option>
+                    <option value="localizacao2">Lorena-SP</option>
+                    <option value="localizacao3">Taubate-SP</option>
+                    <option value="localizacao4">Aparecida-SP</option>
+                </select>
+                
+                <select class="filter">
+                    <option value="">Ordenar por</option>
+                    <option value="mais-recentes">Mais Recentes</option>
+                    <option value="mais-antigos">Mais Antigos</option>
+                    <option value="preco-crescente">Preço Crescente</option>
+                    <option value="preco-decrescente">Preço Decrescente</option>
+                </select>
+                
+            </section>
+            <section class="raffle-info">
+              
+                <h2>Minhas Rifas</h2>
+                <p>Quantidade de anúncios: 0 anúncios</p>
+                <p>Publicados nos últimos 90 dias</p>
+              
+            </section>
+
+            <section class="raffle-area">
+                <p class="no-content">Ainda não há rifa ativa.</p>
+            </section>
+          
+        </main>
+      
+ </div>
+   
+
+         <script src="js/conta.js"></script>
+</body>
+</html>
